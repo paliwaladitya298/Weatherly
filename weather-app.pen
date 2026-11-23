@@ -1,0 +1,1288 @@
+{
+  "version": "2.25",
+  "children": [
+    {
+      "type": "frame",
+      "id": "sNxPv",
+      "x": -2027,
+      "y": -636.9955475924473,
+      "name": "Weather Dashboard • Desktop",
+      "rotation": 0.2645530565441019,
+      "clip": true,
+      "width": 1457,
+      "height": 713,
+      "fill": "#a7ccebff",
+      "layout": "none",
+      "children": [
+        {
+          "type": "frame",
+          "id": "GprJS",
+          "x": 72,
+          "y": 28,
+          "name": "Top navigation",
+          "width": 1296,
+          "height": 56,
+          "layout": "none",
+          "children": [
+            {
+              "type": "icon",
+              "id": "PViLE",
+              "x": 0,
+              "y": 10,
+              "name": "Brand weather mark",
+              "width": 34,
+              "height": 34,
+              "icon": "cloud-sun",
+              "library": "lucide",
+              "fill": "#3983B9"
+            },
+            {
+              "type": "text",
+              "id": "jSqhC",
+              "x": 44,
+              "y": 17,
+              "name": "Brand name",
+              "fill": "#173750",
+              "content": "Weatherly",
+              "fontFamily": "Geist",
+              "fontSize": 18,
+              "fontWeight": "700"
+            },
+            {
+              "type": "text",
+              "id": "hAtZC",
+              "x": 1088,
+              "y": 20,
+              "name": "Header date",
+              "fill": "#748A9B",
+              "content": "MON, NOV 23",
+              "fontFamily": "Geist Mono",
+              "fontSize": 12,
+              "fontWeight": "600"
+            },
+            {
+              "type": "frame",
+              "id": "Msijs",
+              "x": 260,
+              "y": 4,
+              "name": "City search field",
+              "width": 490,
+              "height": 48,
+              "fill": "#FFFFFF",
+              "cornerRadius": 14,
+              "stroke": "#DCE7EE",
+              "strokeWidth": 1,
+              "layout": "none",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "z7jC8",
+                  "x": 438,
+                  "y": 6,
+                  "name": "Search button",
+                  "width": 42,
+                  "height": 36,
+                  "fill": "#367FA8",
+                  "cornerRadius": 10,
+                  "layout": "none",
+                  "children": [
+                    {
+                      "type": "icon",
+                      "id": "HNjuO",
+                      "x": 11,
+                      "y": 8,
+                      "name": "Search location",
+                      "width": 20,
+                      "height": 20,
+                      "icon": "search",
+                      "library": "lucide",
+                      "fill": "#FFFFFF"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "sK0Fb",
+                  "x": 24,
+                  "y": 15,
+                  "name": "Search placeholder",
+                  "fill": "#8A9CAA",
+                  "content": "Search for a city...",
+                  "fontFamily": "Inter",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "N1Oix",
+              "x": 770,
+              "y": 4,
+              "name": "Current location button",
+              "width": 170,
+              "height": 48,
+              "cornerRadius": 14,
+              "stroke": "#000000ff",
+              "strokeWidth": 1,
+              "strokeAlignment": "inner",
+              "layout": "none",
+              "children": [
+                {
+                  "type": "icon",
+                  "id": "H2pjBv",
+                  "x": 13,
+                  "y": 14,
+                  "name": "Location pin",
+                  "width": 18,
+                  "height": 20,
+                  "icon": "map-pin",
+                  "library": "lucide",
+                  "fill": "#4D8FB7"
+                },
+                {
+                  "type": "text",
+                  "id": "Bdmhd",
+                  "x": 37.79406947456141,
+                  "y": 14.630868522793321,
+                  "fill": "#4646f2ff",
+                  "content": "Choose Country",
+                  "fontFamily": "Inter",
+                  "fontSize": 16,
+                  "fontWeight": "normal"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "lGGiK",
+          "x": 72,
+          "y": 108,
+          "name": "Current conditions hero",
+          "clip": true,
+          "width": 1296,
+          "height": 286,
+          "fill": {
+            "type": "gradient",
+            "gradientType": "linear",
+            "enabled": true,
+            "rotation": 0,
+            "size": {
+              "height": 1
+            },
+            "colors": [
+              {
+                "color": "#DDF1FC",
+                "position": 0
+              },
+              {
+                "color": "#F5FAFE",
+                "position": 1
+              }
+            ]
+          },
+          "cornerRadius": 28,
+          "effect": {
+            "type": "shadow",
+            "shadowType": "outer",
+            "color": "#24496A10",
+            "offset": {
+              "x": 0,
+              "y": 5
+            },
+            "blur": 18
+          },
+          "layout": "none",
+          "children": [
+            {
+              "type": "ellipse",
+              "id": "zny58",
+              "x": 1033,
+              "y": 9,
+              "name": "Sun halo",
+              "fill": "#FFFFFF5C",
+              "width": 238,
+              "height": 238
+            },
+            {
+              "type": "ellipse",
+              "id": "nN3EZ",
+              "x": 1110,
+              "y": 36,
+              "name": "Soft sky accent",
+              "fill": "#C7E5F64A",
+              "width": 160,
+              "height": 196
+            },
+            {
+              "type": "text",
+              "id": "Yf09x",
+              "x": 40,
+              "y": 29,
+              "name": "Current weather eyebrow",
+              "fill": "#5F8198",
+              "content": "CURRENT WEATHER",
+              "fontFamily": "Geist Mono",
+              "fontSize": 11,
+              "fontWeight": "700"
+            },
+            {
+              "type": "text",
+              "id": "NIBda",
+              "x": 40,
+              "y": 51,
+              "name": "Hero location",
+              "fill": "#193C57",
+              "content": "Indore",
+              "fontFamily": "Geist",
+              "fontSize": 21,
+              "fontWeight": "600"
+            },
+            {
+              "type": "text",
+              "id": "s6KAw5",
+              "x": 40,
+              "y": 100,
+              "name": "Current temperature",
+              "fill": "#153A57",
+              "textGrowth": "fixed-width-height",
+              "width": 180,
+              "height": 122,
+              "content": "25°",
+              "fontFamily": "Geist",
+              "fontSize": 94,
+              "fontWeight": "500"
+            },
+            {
+              "type": "text",
+              "id": "CXdSn",
+              "x": 280,
+              "y": 153,
+              "name": "Weather condition",
+              "fill": "#365E78",
+              "content": "Haze",
+              "fontFamily": "Inter",
+              "fontSize": 23,
+              "fontWeight": "500"
+            },
+            {
+              "type": "text",
+              "id": "o4gu1H",
+              "x": 282,
+              "y": 188,
+              "name": "Feels like temperature",
+              "fill": "#668196",
+              "content": "Feels like 25°C",
+              "fontFamily": "Inter",
+              "fontSize": 14,
+              "fontWeight": "500"
+            },
+            {
+              "type": "text",
+              "id": "b4KmD",
+              "x": 282,
+              "y": 213,
+              "name": "High low temperature",
+              "fill": "#668196",
+              "content": "H 28°   ·   L 18°",
+              "fontFamily": "Geist Mono",
+              "fontSize": 13,
+              "fontWeight": "500"
+            },
+            {
+              "type": "text",
+              "id": "t3QND",
+              "x": 937,
+              "y": 30,
+              "name": "Updated timestamp",
+              "fill": "#6F8CA0",
+              "content": "MON, NOV 23 · 11:55 AM IST",
+              "fontFamily": "Geist Mono",
+              "fontSize": 11,
+              "fontWeight": "600"
+            },
+            {
+              "type": "icon",
+              "id": "L6OmQx",
+              "x": 1048,
+              "y": 78,
+              "name": "Partly sunny illustration",
+              "width": 158,
+              "height": 150,
+              "icon": "cloud-fog",
+              "library": "lucide",
+              "fill": "#5B9AC1"
+            },
+            {
+              "type": "rectangle",
+              "id": "YhjfT",
+              "x": 40,
+              "y": 250,
+              "name": "Hero information divider",
+              "fill": "#BBD7E64F",
+              "width": 1216,
+              "height": 1
+            },
+            {
+              "type": "text",
+              "id": "GXEZh",
+              "x": 40,
+              "y": 265,
+              "name": "Today label",
+              "fill": "#355B74",
+              "content": "Today",
+              "fontFamily": "Inter",
+              "fontSize": 14,
+              "fontWeight": "600"
+            },
+            {
+              "type": "text",
+              "id": "mZ6Lw",
+              "x": 103,
+              "y": 265,
+              "name": "Daylight outlook",
+              "fill": "#668196",
+              "content": "Haze over the city this morning",
+              "fontFamily": "Inter",
+              "fontSize": 14
+            },
+            {
+              "type": "text",
+              "id": "XRekM",
+              "x": 40,
+              "y": 78,
+              "name": "Hero country and region",
+              "fill": "#6A8495",
+              "content": "Madhya Pradesh, India",
+              "fontFamily": "Inter",
+              "fontSize": 12,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "text",
+              "id": "IspXJ",
+              "x": 191,
+              "y": 132,
+              "name": "Temperature unit",
+              "fill": "#153A57",
+              "content": "C",
+              "fontFamily": "Inter",
+              "fontSize": 32,
+              "fontWeight": "500"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "d1dcG",
+          "x": 72,
+          "y": 406,
+          "name": "Weather details",
+          "width": 1296,
+          "height": 104,
+          "fill": "#F3F8FC",
+          "effect": {
+            "type": "shadow",
+            "shadowType": "outer",
+            "color": "#24496A10",
+            "offset": {
+              "x": 0,
+              "y": 5
+            },
+            "blur": 18
+          },
+          "gap": 12,
+          "children": [
+            {
+              "type": "frame",
+              "id": "wmW57",
+              "name": "Humidity metric",
+              "rotation": -0.2385316634230593,
+              "width": "fill_container",
+              "height": "fill_container",
+              "fill": "#FFFFFF",
+              "cornerRadius": 18,
+              "stroke": "#E5EDF2",
+              "strokeWidth": 1,
+              "effect": {
+                "type": "shadow",
+                "shadowType": "outer",
+                "color": "#183B5410",
+                "offset": {
+                  "x": 0,
+                  "y": 2
+                },
+                "blur": 10
+              },
+              "layout": "vertical",
+              "gap": 10,
+              "padding": 16,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "vxddF",
+                  "name": "Metric card label row",
+                  "width": "fill_container",
+                  "height": 20,
+                  "gap": 9,
+                  "justifyContent": "center",
+                  "children": [
+                    {
+                      "type": "icon",
+                      "id": "xU4Qy",
+                      "name": "Metric card icon",
+                      "width": 18,
+                      "height": 18,
+                      "icon": "droplet",
+                      "library": "lucide",
+                      "fill": "#5B9AC1"
+                    },
+                    {
+                      "type": "text",
+                      "id": "GRnO5",
+                      "fill": "#000000",
+                      "textGrowth": "fixed-width-height",
+                      "width": 110,
+                      "height": 19,
+                      "content": "HUMIDITY",
+                      "fontFamily": "Inter",
+                      "fontSize": 16,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "n4Iun",
+                  "name": "Metric card value",
+                  "fill": "#1B405B",
+                  "content": "53%",
+                  "fontFamily": "Inter",
+                  "fontSize": 22,
+                  "fontWeight": "600"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "hs2LR",
+              "name": "Wind speed metric",
+              "rotation": -0.2385316634230593,
+              "width": "fill_container",
+              "height": "fill_container",
+              "fill": "#FFFFFF",
+              "cornerRadius": 18,
+              "stroke": "#E5EDF2",
+              "strokeWidth": 1,
+              "effect": {
+                "type": "shadow",
+                "shadowType": "outer",
+                "color": "#183B5410",
+                "offset": {
+                  "x": 0,
+                  "y": 2
+                },
+                "blur": 10
+              },
+              "layout": "vertical",
+              "gap": 10,
+              "padding": 16,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "jLfb5",
+                  "name": "Metric card label row",
+                  "width": "fill_container",
+                  "height": 20,
+                  "gap": 9,
+                  "justifyContent": "center",
+                  "children": [
+                    {
+                      "type": "icon",
+                      "id": "WaUEB",
+                      "name": "Metric card icon",
+                      "width": 18,
+                      "height": 18,
+                      "icon": "wind",
+                      "library": "lucide",
+                      "fill": "#5B9AC1"
+                    },
+                    {
+                      "type": "text",
+                      "id": "xUuQk",
+                      "fill": "#000000",
+                      "textGrowth": "fixed-width-height",
+                      "width": 110,
+                      "height": 19,
+                      "content": "WIND SPEED",
+                      "fontFamily": "Inter",
+                      "fontSize": 16,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "poN3n",
+                  "name": "Metric card value",
+                  "fill": "#1B405B",
+                  "content": "2.57 m/s",
+                  "fontFamily": "Inter",
+                  "fontSize": 22,
+                  "fontWeight": "600"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "PqqjN",
+              "name": "Pressure metric",
+              "rotation": -0.2385316634230593,
+              "width": "fill_container",
+              "height": "fill_container",
+              "fill": "#FFFFFF",
+              "cornerRadius": 18,
+              "stroke": "#E5EDF2",
+              "strokeWidth": 1,
+              "effect": {
+                "type": "shadow",
+                "shadowType": "outer",
+                "color": "#183B5410",
+                "offset": {
+                  "x": 0,
+                  "y": 2
+                },
+                "blur": 10
+              },
+              "layout": "vertical",
+              "gap": 10,
+              "padding": 16,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "ilAoH",
+                  "name": "Metric card label row",
+                  "width": "fill_container",
+                  "height": 20,
+                  "gap": 9,
+                  "justifyContent": "center",
+                  "children": [
+                    {
+                      "type": "icon",
+                      "id": "Y4bFu",
+                      "name": "Metric card icon",
+                      "width": 18,
+                      "height": 18,
+                      "icon": "gauge",
+                      "library": "lucide",
+                      "fill": "#5B9AC1"
+                    },
+                    {
+                      "type": "text",
+                      "id": "xHjjq",
+                      "fill": "#000000",
+                      "textGrowth": "fixed-width-height",
+                      "width": 110,
+                      "height": 19,
+                      "content": "PRESSURE",
+                      "fontFamily": "Inter",
+                      "fontSize": 16,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "LUYjj",
+                  "name": "Metric card value",
+                  "fill": "#1B405B",
+                  "content": "1022 hPa",
+                  "fontFamily": "Inter",
+                  "fontSize": 22,
+                  "fontWeight": "600"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "y93B8",
+              "name": "Visibility metric",
+              "rotation": -0.2385316634230593,
+              "width": "fill_container",
+              "height": "fill_container",
+              "fill": "#FFFFFF",
+              "cornerRadius": 18,
+              "stroke": "#E5EDF2",
+              "strokeWidth": 1,
+              "effect": {
+                "type": "shadow",
+                "shadowType": "outer",
+                "color": "#183B5410",
+                "offset": {
+                  "x": 0,
+                  "y": 2
+                },
+                "blur": 10
+              },
+              "layout": "vertical",
+              "gap": 10,
+              "padding": 16,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "EQBld",
+                  "name": "Metric card label row",
+                  "width": "fill_container",
+                  "height": 20,
+                  "gap": 9,
+                  "justifyContent": "center",
+                  "children": [
+                    {
+                      "type": "icon",
+                      "id": "g4Yo4",
+                      "name": "Metric card icon",
+                      "width": 18,
+                      "height": 18,
+                      "icon": "eye",
+                      "library": "lucide",
+                      "fill": "#5B9AC1"
+                    },
+                    {
+                      "type": "text",
+                      "id": "yj4Vx",
+                      "fill": "#000000",
+                      "textGrowth": "fixed-width-height",
+                      "width": 110,
+                      "height": 19,
+                      "content": "VISIBILITY",
+                      "fontFamily": "Inter",
+                      "fontSize": 16,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "Nd9qV",
+                  "name": "Metric card value",
+                  "fill": "#1B405B",
+                  "content": "5 km",
+                  "fontFamily": "Inter",
+                  "fontSize": 22,
+                  "fontWeight": "600"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "SCdYK",
+          "x": 72,
+          "y": 530,
+          "name": "Sunrise and sunset",
+          "width": 1296,
+          "height": 110,
+          "fill": "#FFFFFF",
+          "cornerRadius": 20,
+          "stroke": "#E5EDF2",
+          "strokeWidth": 1,
+          "effect": {
+            "type": "shadow",
+            "shadowType": "outer",
+            "color": "#183B540A",
+            "offset": {
+              "x": 0,
+              "y": 2
+            },
+            "blur": 10
+          },
+          "layout": "none",
+          "children": [
+            {
+              "type": "text",
+              "id": "g6QKa",
+              "x": 24,
+              "y": 16,
+              "name": "Daylight section label",
+              "fill": "#8196A5",
+              "content": "SUNRISE & SUNSET",
+              "fontFamily": "Inter",
+              "fontSize": 10,
+              "fontWeight": "600",
+              "letterSpacing": 1
+            },
+            {
+              "type": "icon",
+              "id": "NxtvZ",
+              "x": 24,
+              "y": 54,
+              "name": "Sunrise icon",
+              "width": 24,
+              "height": 24,
+              "icon": "sunrise",
+              "library": "lucide",
+              "fill": "#E6A53D"
+            },
+            {
+              "type": "text",
+              "id": "z7MdN8",
+              "x": 60,
+              "y": 47,
+              "name": "Sunrise time",
+              "fill": "#23465F",
+              "content": "6:24 AM",
+              "fontFamily": "Inter",
+              "fontSize": 18,
+              "fontWeight": "600"
+            },
+            {
+              "type": "text",
+              "id": "X4yYF",
+              "x": 60,
+              "y": 71,
+              "name": "Sunrise caption",
+              "fill": "#8196A5",
+              "content": "Sunrise",
+              "fontFamily": "Inter",
+              "fontSize": 12,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "rectangle",
+              "cornerRadius": 2,
+              "id": "ZzRop",
+              "x": 344,
+              "y": 63,
+              "name": "Daylight timeline",
+              "fill": "#E8F0F4",
+              "width": 608,
+              "height": 3
+            },
+            {
+              "type": "ellipse",
+              "id": "l70dN",
+              "x": 640,
+              "y": 53,
+              "name": "Daylight timeline marker",
+              "fill": "#F0B44F",
+              "width": 24,
+              "height": 24,
+              "stroke": "#FFFFFF",
+              "strokeWidth": 3
+            },
+            {
+              "type": "text",
+              "id": "zllkC",
+              "x": 577,
+              "y": 79,
+              "name": "Daylight duration",
+              "fill": "#8196A5",
+              "content": "10h 57m of daylight",
+              "fontFamily": "Inter",
+              "fontSize": 11,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "text",
+              "id": "JIR4b",
+              "x": 1090,
+              "y": 47,
+              "name": "Sunset time",
+              "fill": "#23465F",
+              "content": "5:21 PM",
+              "fontFamily": "Inter",
+              "fontSize": 18,
+              "fontWeight": "600"
+            },
+            {
+              "type": "text",
+              "id": "snnFH",
+              "x": 1090,
+              "y": 71,
+              "name": "Sunset caption",
+              "fill": "#8196A5",
+              "content": "Sunset",
+              "fontFamily": "Inter",
+              "fontSize": 12,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "icon",
+              "id": "tBFb2",
+              "x": 1170,
+              "y": 54,
+              "name": "Sunset icon",
+              "width": 24,
+              "height": 24,
+              "icon": "sunset",
+              "library": "lucide",
+              "fill": "#E6A53D"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "XXEd0",
+      "x": -44,
+      "y": -457,
+      "name": "Weather Dashboard • Mobile",
+      "clip": true,
+      "width": 390,
+      "height": 1500,
+      "fill": "#F3F8FC",
+      "layout": "none",
+      "children": [
+        {
+          "type": "frame",
+          "id": "GFYV2",
+          "x": 20,
+          "y": 18,
+          "name": "Mobile top bar",
+          "width": 350,
+          "height": 42,
+          "layout": "none",
+          "children": [
+            {
+              "type": "icon",
+              "id": "JfMmp",
+              "x": 0,
+              "y": 5,
+              "name": "Mobile brand weather mark",
+              "width": 32,
+              "height": 32,
+              "icon": "cloud-sun",
+              "library": "lucide",
+              "fill": "#3983B9"
+            },
+            {
+              "type": "text",
+              "id": "hFhPI",
+              "x": 42,
+              "y": 11,
+              "name": "Mobile brand name",
+              "fill": "#173750",
+              "content": "Weatherly",
+              "fontFamily": "Inter",
+              "fontSize": 18,
+              "fontWeight": "600"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "cbXkg",
+          "x": 20,
+          "y": 72,
+          "name": "Mobile city search field",
+          "width": 350,
+          "height": 48,
+          "fill": "#FFFFFF",
+          "cornerRadius": 14,
+          "stroke": "#DCE7EE",
+          "strokeWidth": 1,
+          "layout": "none",
+          "children": [
+            {
+              "type": "icon",
+              "id": "FKT5Y",
+              "x": 14,
+              "y": 14,
+              "name": "Mobile search field icon",
+              "width": 20,
+              "height": 20,
+              "icon": "search",
+              "library": "lucide",
+              "fill": "#8095A4"
+            },
+            {
+              "type": "text",
+              "id": "IlTbg",
+              "x": 44,
+              "y": 16,
+              "name": "Mobile search placeholder",
+              "fill": "#8A9CAA",
+              "content": "Search for a city...",
+              "fontFamily": "Inter",
+              "fontSize": 13,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "frame",
+              "id": "f2iA6D",
+              "x": 302,
+              "y": 6,
+              "name": "Mobile search button",
+              "width": 40,
+              "height": 36,
+              "fill": "#367FA8",
+              "cornerRadius": 10,
+              "layout": "none",
+              "children": [
+                {
+                  "type": "icon",
+                  "id": "TrGfH",
+                  "x": 10,
+                  "y": 8,
+                  "name": "Mobile search button icon",
+                  "width": 20,
+                  "height": 20,
+                  "icon": "search",
+                  "library": "lucide",
+                  "fill": "#FFFFFF"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "XjfAf",
+          "x": 20,
+          "y": 132,
+          "name": "Mobile location button",
+          "width": 156,
+          "height": 34,
+          "fill": "#FFFFFF",
+          "cornerRadius": 12,
+          "stroke": "#DCE7EE",
+          "strokeWidth": 1,
+          "layout": "none",
+          "children": [
+            {
+              "type": "icon",
+              "id": "bAA7W",
+              "x": 11,
+              "y": 8,
+              "name": "Mobile location icon",
+              "width": 17,
+              "height": 18,
+              "icon": "map-pin",
+              "library": "lucide",
+              "fill": "#4D8FB7"
+            },
+            {
+              "type": "text",
+              "id": "nS2Rl",
+              "x": 35,
+              "y": 10,
+              "name": "Mobile location label",
+              "fill": "#456A84",
+              "content": "Use my location",
+              "fontFamily": "Inter",
+              "fontSize": 11,
+              "fontWeight": "500"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "id": "X2Hg8",
+          "x": 200,
+          "y": 142,
+          "name": "Mobile current date",
+          "fill": "#748A9B",
+          "content": "MON, NOV 23 · 11:55 AM",
+          "fontFamily": "Inter",
+          "fontSize": 10,
+          "fontWeight": "500"
+        },
+        {
+          "type": "frame",
+          "id": "ONNNF",
+          "x": 20,
+          "y": 182,
+          "name": "Mobile current conditions hero",
+          "clip": true,
+          "width": 350,
+          "height": 252,
+          "fill": {
+            "type": "gradient",
+            "gradientType": "linear",
+            "enabled": true,
+            "rotation": 0,
+            "size": {
+              "height": 1
+            },
+            "colors": [
+              {
+                "color": "#DDF1FC",
+                "position": 0
+              },
+              {
+                "color": "#F5FAFE",
+                "position": 1
+              }
+            ]
+          },
+          "cornerRadius": 24,
+          "layout": "none",
+          "children": [
+            {
+              "type": "ellipse",
+              "id": "IMQlF",
+              "x": 236,
+              "y": 16,
+              "name": "Mobile soft sky accent",
+              "fill": "#FFFFFF55",
+              "width": 112,
+              "height": 112
+            },
+            {
+              "type": "text",
+              "id": "Jntud",
+              "x": 22,
+              "y": 19,
+              "name": "Mobile current weather eyebrow",
+              "fill": "#5F8198",
+              "content": "CURRENT WEATHER",
+              "fontFamily": "Inter",
+              "fontSize": 9,
+              "fontWeight": "600",
+              "letterSpacing": 1
+            },
+            {
+              "type": "text",
+              "id": "byOvp",
+              "x": 22,
+              "y": 40,
+              "name": "Mobile hero city",
+              "fill": "#193C57",
+              "content": "Indore",
+              "fontFamily": "Inter",
+              "fontSize": 22,
+              "fontWeight": "600"
+            },
+            {
+              "type": "text",
+              "id": "d9ixAs",
+              "x": 22,
+              "y": 68,
+              "name": "Mobile hero country",
+              "fill": "#6A8495",
+              "content": "Madhya Pradesh, India",
+              "fontFamily": "Inter",
+              "fontSize": 11,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "text",
+              "id": "m0vKR",
+              "x": 22,
+              "y": 87,
+              "name": "Mobile current temperature",
+              "fill": "#153A57",
+              "content": "25°",
+              "fontFamily": "Inter",
+              "fontSize": 72,
+              "fontWeight": "500"
+            },
+            {
+              "type": "text",
+              "id": "HZDIH",
+              "x": 127,
+              "y": 119,
+              "name": "Mobile temperature unit",
+              "fill": "#153A57",
+              "content": "C",
+              "fontFamily": "Inter",
+              "fontSize": 24,
+              "fontWeight": "500"
+            },
+            {
+              "type": "icon",
+              "id": "IvLQM",
+              "x": 238,
+              "y": 70,
+              "name": "Mobile haze illustration",
+              "width": 82,
+              "height": 82,
+              "icon": "cloud-fog",
+              "library": "lucide",
+              "fill": "#5B9AC1"
+            },
+            {
+              "type": "text",
+              "id": "CoZIH",
+              "x": 24,
+              "y": 173,
+              "name": "Mobile weather condition",
+              "fill": "#365E78",
+              "content": "Haze",
+              "fontFamily": "Inter",
+              "fontSize": 17,
+              "fontWeight": "500"
+            },
+            {
+              "type": "text",
+              "id": "Cu0Ah",
+              "x": 24,
+              "y": 198,
+              "name": "Mobile feels like",
+              "fill": "#668196",
+              "content": "Feels like 25°C",
+              "fontFamily": "Inter",
+              "fontSize": 12,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "rectangle",
+              "id": "nT5g1",
+              "x": 22,
+              "y": 226,
+              "name": "Mobile hero divider",
+              "fill": "#BBD7E680",
+              "width": 306,
+              "height": 1
+            },
+            {
+              "type": "text",
+              "id": "mG5N3",
+              "x": 22,
+              "y": 234,
+              "name": "Mobile hero update time",
+              "fill": "#6F8CA0",
+              "content": "MONDAY · 11:55 AM IST",
+              "fontFamily": "Inter",
+              "fontSize": 9,
+              "fontWeight": "500"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "EwF17",
+          "x": 20,
+          "y": 450,
+          "name": "Mobile sunrise and sunset",
+          "width": 350,
+          "height": 116,
+          "fill": "#FFFFFF",
+          "cornerRadius": 18,
+          "stroke": "#E5EDF2",
+          "strokeWidth": 1,
+          "layout": "none",
+          "children": [
+            {
+              "type": "text",
+              "id": "jbFQO",
+              "x": 16,
+              "y": 14,
+              "name": "Mobile daylight label",
+              "fill": "#8196A5",
+              "content": "SUNRISE & SUNSET",
+              "fontFamily": "Inter",
+              "fontSize": 9,
+              "fontWeight": "600",
+              "letterSpacing": 1
+            },
+            {
+              "type": "icon",
+              "id": "W3xdu",
+              "x": 17,
+              "y": 50,
+              "name": "Mobile sunrise icon",
+              "width": 20,
+              "height": 20,
+              "icon": "sunrise",
+              "library": "lucide",
+              "fill": "#E6A53D"
+            },
+            {
+              "type": "text",
+              "id": "OEP51",
+              "x": 43,
+              "y": 48,
+              "name": "Mobile sunrise time",
+              "fill": "#23465F",
+              "content": "6:24 AM",
+              "fontFamily": "Inter",
+              "fontSize": 14,
+              "fontWeight": "600"
+            },
+            {
+              "type": "text",
+              "id": "stiV9",
+              "x": 43,
+              "y": 70,
+              "name": "Mobile sunrise caption",
+              "fill": "#8196A5",
+              "content": "Sunrise",
+              "fontFamily": "Inter",
+              "fontSize": 10,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "rectangle",
+              "cornerRadius": 1,
+              "id": "LFcoj",
+              "x": 133,
+              "y": 60,
+              "name": "Mobile daylight timeline",
+              "fill": "#E8F0F4",
+              "width": 82,
+              "height": 2
+            },
+            {
+              "type": "ellipse",
+              "id": "LjDpU",
+              "x": 171,
+              "y": 53,
+              "name": "Mobile daylight marker",
+              "fill": "#F0B44F",
+              "width": 16,
+              "height": 16,
+              "stroke": "#FFFFFF",
+              "strokeWidth": 2
+            },
+            {
+              "type": "text",
+              "id": "JMsWk",
+              "x": 239,
+              "y": 48,
+              "name": "Mobile sunset time",
+              "fill": "#23465F",
+              "content": "5:21 PM",
+              "fontFamily": "Inter",
+              "fontSize": 14,
+              "fontWeight": "600"
+            },
+            {
+              "type": "text",
+              "id": "PkE9O",
+              "x": 239,
+              "y": 70,
+              "name": "Mobile sunset caption",
+              "fill": "#8196A5",
+              "content": "Sunset",
+              "fontFamily": "Inter",
+              "fontSize": 10,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "icon",
+              "id": "AnMcC",
+              "x": 314,
+              "y": 50,
+              "name": "Mobile sunset icon",
+              "width": 20,
+              "height": 20,
+              "icon": "sunset",
+              "library": "lucide",
+              "fill": "#E6A53D"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "fileToken": "ba724afa-c3a1-432b-afb6-80a896730eba"
+}
